@@ -10,11 +10,23 @@
   	<meta name="author" content="Ing. Aldair Morales Cuellar">
 </head>
 <body>
+	<section>
+		<div class="content">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="card">
+						<h3>Programación con PHP+Bootstrap+MySQL</h3>
+					</div>
+					<br>
+				</div>
+			</div>
+		</div>
+	</section>
 	<div class="container">
 		<div class="row">
 			<div class="col-3"></div>
 			<div class="col-6">
-				<h3>Subir Archivo Excel a MySQL con PHP</h3>
+				<h4>Subir Archivo Excel a MySQL con PHP</h4>
 				<form action="controller/subir.php" class="formulariocompleto" method="post" enctype="multipart/form-data">
 					<div class="form-group">
 						<input type="file" name="archivo" id="archivo" class="form-control" />
